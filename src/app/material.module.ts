@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import {
   MatButtonModule,
   MatFormFieldModule,
@@ -33,7 +34,8 @@ import {
     MatCardModule,
     MatSelectModule,
     MatProgressSpinnerModule,
-    MatDialogModule
+    MatDialogModule,
+    ReactiveFormsModule
   ],
   exports: [
     MatButtonModule,
@@ -50,7 +52,8 @@ import {
     MatCardModule,
     MatSelectModule,
     MatProgressSpinnerModule,
-    MatDialogModule
+    MatDialogModule,
+    ReactiveFormsModule
   ]
 })
 export class MaterialModule { }
